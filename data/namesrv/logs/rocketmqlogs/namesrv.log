@@ -391,3 +391,83 @@
 2024-08-26 00:43:16 INFO NSScheduledThread1 - configTable SIZE: 0
 2024-08-26 00:53:16 INFO NSScheduledThread1 - --------------------------------------------------------
 2024-08-26 00:53:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 01:55:35 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.8.0
+2024-08-26 01:55:35 INFO main - kvConfigPath=/opt/namesrv/kvConfig.json
+2024-08-26 01:55:35 INFO main - configStorePath=/opt/namesrv/namesrv.properties
+2024-08-26 01:55:35 INFO main - productEnvName=center
+2024-08-26 01:55:35 INFO main - clusterTest=false
+2024-08-26 01:55:35 INFO main - orderMessageEnable=false
+2024-08-26 01:55:35 INFO main - listenPort=9876
+2024-08-26 01:55:35 INFO main - serverWorkerThreads=8
+2024-08-26 01:55:35 INFO main - serverCallbackExecutorThreads=0
+2024-08-26 01:55:35 INFO main - serverSelectorThreads=3
+2024-08-26 01:55:35 INFO main - serverOnewaySemaphoreValue=256
+2024-08-26 01:55:35 INFO main - serverAsyncSemaphoreValue=64
+2024-08-26 01:55:35 INFO main - serverChannelMaxIdleTimeSeconds=120
+2024-08-26 01:55:35 INFO main - serverSocketSndBufSize=65535
+2024-08-26 01:55:35 INFO main - serverSocketRcvBufSize=65535
+2024-08-26 01:55:35 INFO main - serverPooledByteBufAllocatorEnable=true
+2024-08-26 01:55:35 INFO main - useEpollNativeSelector=false
+2024-08-26 01:55:36 INFO main - Server is running in TLS permissive mode
+2024-08-26 01:55:36 INFO main - Tls config file doesn't exist, skip it
+2024-08-26 01:55:36 INFO main - Log the final used tls related configuration
+2024-08-26 01:55:36 INFO main - tls.test.mode.enable = true
+2024-08-26 01:55:36 INFO main - tls.server.need.client.auth = none
+2024-08-26 01:55:36 INFO main - tls.server.keyPath = null
+2024-08-26 01:55:36 INFO main - tls.server.keyPassword = null
+2024-08-26 01:55:36 INFO main - tls.server.certPath = null
+2024-08-26 01:55:36 INFO main - tls.server.authClient = false
+2024-08-26 01:55:36 INFO main - tls.server.trustCertPath = null
+2024-08-26 01:55:36 INFO main - tls.client.keyPath = null
+2024-08-26 01:55:36 INFO main - tls.client.keyPassword = null
+2024-08-26 01:55:36 INFO main - tls.client.certPath = null
+2024-08-26 01:55:36 INFO main - tls.client.authServer = false
+2024-08-26 01:55:36 INFO main - tls.client.trustCertPath = null
+2024-08-26 01:55:39 INFO main - Using OpenSSL provider
+2024-08-26 01:55:40 INFO main - SSLContext created for server
+2024-08-26 01:55:41 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-08-26 01:55:41 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-08-26 01:55:41 INFO FileWatchService - FileWatchService service started
+2024-08-26 01:55:41 INFO main - The Name Server boot success. serializeType=JSON
+2024-08-26 01:55:42 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.2:48682
+2024-08-26 01:55:42 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.2:48682]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-26 01:55:42 INFO RemotingExecutorThread_1 - new broker registered, 172.25.0.2:10911 HAServer: 172.25.0.2:10912
+2024-08-26 01:56:40 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 01:56:40 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 01:57:33 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:37675
+2024-08-26 01:57:33 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:37675]
+2024-08-26 01:59:23 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:37675]
+2024-08-26 01:59:23 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:37675]
+2024-08-26 01:59:48 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:37687
+2024-08-26 01:59:48 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:37687]
+2024-08-26 02:00:16 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:37687]
+2024-08-26 02:00:16 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:37687]
+2024-08-26 02:03:13 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:37709
+2024-08-26 02:03:13 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:37709]
+2024-08-26 02:06:40 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 02:06:40 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 02:09:08 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:37709]
+2024-08-26 02:09:08 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:37709]
+2024-08-26 02:09:36 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:37721
+2024-08-26 02:09:36 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:37721]
+2024-08-26 02:13:41 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:37721]
+2024-08-26 02:13:41 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:37721]
+2024-08-26 02:14:29 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:37733
+2024-08-26 02:14:29 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:37733]
+2024-08-26 02:16:40 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 02:16:40 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 02:19:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:37733]
+2024-08-26 02:19:59 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:37733]
+2024-08-26 02:20:32 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:37745
+2024-08-26 02:20:32 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:37745]
+2024-08-26 02:26:40 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 02:26:40 INFO NSScheduledThread1 - configTable SIZE: 0

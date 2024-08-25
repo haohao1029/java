@@ -23,7 +23,7 @@ services:
       - app-network
 
   namesrv:
-    image: apache/rocketmq:4.8.0
+    image: apache/rocketmq:latest
     container_name: rmqnamesrv
     ports:
       - "9876:9876"
@@ -36,9 +36,14 @@ services:
     command: sh mqnamesrv
     networks:
       - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9876"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   broker:
-    image: apache/rocketmq:4.8.0
+    image: apache/rocketmq:latest
     container_name: rmqbroker
     depends_on:
       - namesrv
@@ -47,15 +52,19 @@ services:
       - "10909:10909"
     environment:
       - "JAVA_OPT=-Duser.home=/opt"
-      - "JAVA_OPT_EXT=-server -Xms512M -Xmx512M -Xmn128M"
+      - "JAVA_OPT_EXT=-server -Xms2G -Xmx2G -Xmn512M"
       - "NAMESRV_ADDR=namesrv:9876"
-      - "BROKER_MEM=512m"
     volumes:
       - "./data/broker/logs:/opt/logs"
       - "./data/broker/store:/opt/store"
     command: sh mqbroker -n namesrv:9876
     networks:
       - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10911"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
 volumes:
   mysql_data:

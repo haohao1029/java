@@ -6830,3 +6830,753 @@
 2024-08-26 00:54:16 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
 2024-08-26 00:54:16 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
 2024-08-26 00:54:16 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:55:36 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2024-08-26 01:55:36 INFO main - last shutdown abnormally
+2024-08-26 01:55:36 INFO main - load commit log OK
+2024-08-26 01:55:36 INFO main - load logics queue all over, OK
+2024-08-26 01:55:36 INFO main - store checkpoint file exists, /opt/store/checkpoint
+2024-08-26 01:55:36 INFO main - store checkpoint file physicMsgTimestamp 0, 19700101000000000
+2024-08-26 01:55:36 INFO main - store checkpoint file logicsMsgTimestamp 0, 19700101000000000
+2024-08-26 01:55:36 INFO main - store checkpoint file indexMsgTimestamp 0, 19700101000000000
+2024-08-26 01:55:36 WARN main - The commitlog files are deleted, and delete the consume queue files
+2024-08-26 01:55:36 INFO main - load over, and the max phy offset = 0
+2024-08-26 01:55:41 INFO main - [SetReputOffset] maxPhysicalPosInLogicQueue=0 clMinOffset=-1 clMaxOffset=0 clConfirmedOffset=-1
+2024-08-26 01:55:41 INFO ReputMessageService - ReputMessageService service started
+2024-08-26 01:55:41 INFO AcceptSocketService - AcceptSocketService service started
+2024-08-26 01:55:41 INFO GroupTransferService - GroupTransferService service started
+2024-08-26 01:55:41 INFO HAClient - HAClient service started
+2024-08-26 01:55:41 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2024-08-26 01:55:41 INFO FlushRealTimeService - FlushRealTimeService service started
+2024-08-26 01:55:41 INFO main - /opt/store/abort already exists
+2024-08-26 01:55:41 INFO StoreStatsService - StoreStatsService service started
+2024-08-26 01:56:36 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
+2024-08-26 01:56:36 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 01:56:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:56:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:56:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:56:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:56:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:56:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:57:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:57:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:57:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:57:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:57:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:57:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:57:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:57:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:57:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:57:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:57:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:57:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:57:36 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03326348002528024 get_transfered_tps 0.0
+2024-08-26 01:57:36 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 01:57:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:57:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:57:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:57:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:57:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:57:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:58:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:58:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:58:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:58:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:58:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:58:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:58:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:58:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:58:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:58:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:58:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:58:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:58:36 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328285433758799 get_transfered_tps 0.0
+2024-08-26 01:58:36 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 01:58:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:58:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:58:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:58:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:58:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:58:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:59:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:59:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:59:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:59:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:59:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:59:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:59:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:59:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:59:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:59:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:59:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:59:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:59:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327842393384249 get_transfered_tps 0.0
+2024-08-26 01:59:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 01:59:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:59:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:59:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 01:59:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 01:59:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 01:59:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:00:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:00:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:00:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:00:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:00:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:00:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:00:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:00:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:00:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:00:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:00:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:00:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:00:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327731651719605 get_transfered_tps 0.0
+2024-08-26 02:00:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:00:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:00:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:00:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:00:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:00:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:00:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:01:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:01:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:01:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:01:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:01:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:01:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:01:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:01:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:01:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:01:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:01:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:01:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:01:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328894806924101 get_transfered_tps 0.0
+2024-08-26 02:01:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:01:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:01:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:01:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:01:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:01:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:01:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:02:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:02:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:02:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:02:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:02:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:02:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:02:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:02:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:02:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:02:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:02:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:02:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:02:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033274548298006856 get_transfered_tps 0.0
+2024-08-26 02:02:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:02:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:02:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:02:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:02:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:02:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:02:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:03:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:03:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:03:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:03:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:03:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:03:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:03:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:03:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:03:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:03:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:03:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:03:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:03:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03326348002528024 get_transfered_tps 0.0
+2024-08-26 02:03:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:03:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:03:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:03:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:03:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:03:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:03:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:04:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:04:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:04:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:04:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:04:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:04:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:04:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:04:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:04:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:04:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:04:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:04:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:04:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327897766980598 get_transfered_tps 0.0
+2024-08-26 02:04:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:04:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:04:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:04:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:04:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:04:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:04:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:05:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:05:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:05:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:05:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:05:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:05:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:05:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:05:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:05:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:05:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:05:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:05:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:05:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033281192797949874 get_transfered_tps 0.0
+2024-08-26 02:05:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:05:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:05:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:05:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:05:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:05:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:05:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:06:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:06:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:06:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:06:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:06:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:06:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:06:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:06:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:06:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:06:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:06:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:06:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:06:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03325850170449821 get_transfered_tps 0.0
+2024-08-26 02:06:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:06:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:06:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:06:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:06:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:06:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:06:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:07:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:07:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:07:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:07:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:07:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:07:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:07:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:07:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:07:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:07:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:07:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:07:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:07:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327842393384249 get_transfered_tps 0.0
+2024-08-26 02:07:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:07:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:07:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:07:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:07:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:07:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:07:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:08:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:08:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:08:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:08:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:08:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:08:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:08:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:08:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:08:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:08:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:08:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:08:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:08:37 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033283962122851105 get_transfered_tps 0.0
+2024-08-26 02:08:37 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:08:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:08:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:08:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:08:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:08:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:08:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:09:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:09:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:09:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:09:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:09:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:09:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:09:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:09:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:09:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:09:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:09:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:09:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:09:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327842393384249 get_transfered_tps 0.0
+2024-08-26 02:09:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:09:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:09:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:09:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:09:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:09:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:09:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:10:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:10:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:10:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:10:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:10:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:10:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:10:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:10:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:10:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:10:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:10:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:10:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:10:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328285433758799 get_transfered_tps 0.0
+2024-08-26 02:10:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:10:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:10:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:10:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:10:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:10:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:10:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:11:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:11:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:11:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:11:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:11:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:11:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:11:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:11:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:11:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:11:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:11:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:11:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:11:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328230047260867 get_transfered_tps 0.0
+2024-08-26 02:11:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:11:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:11:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:11:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:11:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:11:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:11:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:12:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:12:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:12:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:12:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:12:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:12:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:12:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:12:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:12:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:12:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:12:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:12:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:12:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033279531424197546 get_transfered_tps 0.0
+2024-08-26 02:12:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:12:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:12:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:12:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:12:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:12:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:12:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:13:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:13:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:13:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:13:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:13:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:13:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:13:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:13:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:13:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:13:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:13:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:13:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:13:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328340822100183 get_transfered_tps 0.0
+2024-08-26 02:13:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:13:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:13:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:13:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:13:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:13:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:13:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:14:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:14:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:14:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:14:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:14:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:14:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:14:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:14:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:14:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:14:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:14:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:14:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:14:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03329227286346839 get_transfered_tps 0.0
+2024-08-26 02:14:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:14:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:14:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:14:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:14:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:14:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:14:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:15:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:15:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:15:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:15:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:15:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:15:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:15:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:15:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:15:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:15:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:15:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:15:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:15:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328894806924101 get_transfered_tps 0.0
+2024-08-26 02:15:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:15:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:15:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:15:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:15:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:15:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:15:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:16:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:16:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:16:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:16:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:16:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:16:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:16:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:16:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:16:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:16:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:16:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:16:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:16:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0332723340542339 get_transfered_tps 0.0
+2024-08-26 02:16:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:16:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:16:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:16:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:16:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:16:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:16:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:17:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:17:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:17:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:17:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:17:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:17:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:17:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:17:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:17:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:17:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:17:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:17:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:17:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033266246403087105 get_transfered_tps 0.0
+2024-08-26 02:17:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:17:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:17:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:17:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:17:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:17:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:17:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:18:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:18:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:18:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:18:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:18:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:18:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:18:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:18:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:18:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:18:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:18:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:18:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:18:38 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033276762836511264 get_transfered_tps 0.0
+2024-08-26 02:18:38 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:18:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:18:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:18:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:18:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:18:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:18:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:19:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:19:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:19:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:19:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:19:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:19:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:19:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:19:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:19:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:19:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:19:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:19:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:19:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327731651719605 get_transfered_tps 0.0
+2024-08-26 02:19:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:19:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:19:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:19:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:19:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:19:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:19:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:20:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:20:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:20:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:20:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:20:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:20:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:20:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:20:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:20:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:20:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:20:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:20:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:20:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328728592114242 get_transfered_tps 0.0
+2024-08-26 02:20:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:20:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:20:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:20:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:20:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:20:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:20:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:21:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:21:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:21:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:21:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:21:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:21:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:21:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:21:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:21:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:21:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:21:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:21:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:21:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328451604313673 get_transfered_tps 0.0
+2024-08-26 02:21:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:21:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:21:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:21:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:21:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:21:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:21:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:22:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:22:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:22:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:22:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:22:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:22:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:22:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:22:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:22:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:22:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:22:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:22:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:22:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03327399470943484 get_transfered_tps 0.0
+2024-08-26 02:22:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:22:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:22:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:22:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:22:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:22:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:22:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:23:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:23:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:23:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:23:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:23:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:23:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:23:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:23:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:23:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:23:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:23:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:23:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:23:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0332723340542339 get_transfered_tps 0.0
+2024-08-26 02:23:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:23:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:23:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:23:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:23:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:23:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:23:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:24:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:24:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:24:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:24:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:24:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:24:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:24:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:24:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:24:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:24:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:24:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:24:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:24:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033275101904999584 get_transfered_tps 0.0
+2024-08-26 02:24:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:24:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:24:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:24:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:24:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:24:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:24:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:25:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:25:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:25:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:25:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:25:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:25:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:25:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:25:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:25:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:25:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:25:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:25:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:25:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03326513979675 get_transfered_tps 0.0
+2024-08-26 02:25:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:25:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:25:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:25:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:25:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:25:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:25:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:26:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:26:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:26:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:26:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:26:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:26:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:26:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:26:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:26:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:26:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:26:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:26:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:26:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033256842595363996 get_transfered_tps 0.0
+2024-08-26 02:26:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:26:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:26:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:26:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:26:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:26:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:26:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:27:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:27:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:27:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:27:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:27:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:27:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:27:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:27:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:27:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:27:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:27:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:27:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:27:39 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03324468085106383 get_transfered_tps 0.0
+2024-08-26 02:27:39 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:27:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:27:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:27:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:27:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:27:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:27:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:28:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:28:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:28:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:28:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:28:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:28:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:28:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:28:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:28:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:28:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:28:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:28:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:28:40 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03326901324106727 get_transfered_tps 0.0
+2024-08-26 02:28:40 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:28:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:28:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:28:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:28:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:28:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:28:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:29:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:29:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:29:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:29:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:29:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:29:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:29:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:29:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:29:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:29:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:29:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:29:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:29:40 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03324854953202667 get_transfered_tps 0.0
+2024-08-26 02:29:40 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:29:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:29:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:29:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:29:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:29:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:29:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:30:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:30:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:30:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:30:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:30:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:30:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:30:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:30:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:30:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:30:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:30:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:30:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:30:40 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03325794864972728 get_transfered_tps 0.0
+2024-08-26 02:30:40 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:30:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:30:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:30:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:30:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:30:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:30:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:31:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:31:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:31:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:31:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:31:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:31:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:31:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:31:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:31:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:31:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:31:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:31:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:31:40 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033268459836651866 get_transfered_tps 0.0
+2024-08-26 02:31:40 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:31:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:31:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:31:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:31:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:31:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:31:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:32:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:32:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:32:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:32:11 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:32:11 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:32:11 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:32:21 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:32:21 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:32:21 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:32:31 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:32:31 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:32:31 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:32:40 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0332883940014314 get_transfered_tps 0.0
+2024-08-26 02:32:40 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-08-26 02:32:41 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:32:41 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:32:41 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:32:51 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:32:51 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:32:51 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-08-26 02:33:01 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2024-08-26 02:33:01 INFO StoreScheduledThread1 - begin to delete before 72 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2024-08-26 02:33:01 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.

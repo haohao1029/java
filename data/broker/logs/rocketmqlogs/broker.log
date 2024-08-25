@@ -5838,3 +5838,797 @@
 2024-08-26 00:54:16 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
 2024-08-26 00:54:17 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
 2024-08-26 00:54:17 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:55:34 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.8.0
+2024-08-26 01:55:35 INFO main - namesrvAddr=namesrv:9876
+2024-08-26 01:55:35 INFO main - brokerIP1=172.25.0.2
+2024-08-26 01:55:35 INFO main - brokerIP2=172.25.0.2
+2024-08-26 01:55:35 INFO main - brokerName=f017af18314a
+2024-08-26 01:55:35 INFO main - brokerClusterName=DefaultCluster
+2024-08-26 01:55:35 INFO main - brokerId=0
+2024-08-26 01:55:35 INFO main - brokerPermission=6
+2024-08-26 01:55:35 INFO main - defaultTopicQueueNums=8
+2024-08-26 01:55:35 INFO main - autoCreateTopicEnable=true
+2024-08-26 01:55:35 INFO main - clusterTopicEnable=true
+2024-08-26 01:55:35 INFO main - brokerTopicEnable=true
+2024-08-26 01:55:35 INFO main - autoCreateSubscriptionGroup=true
+2024-08-26 01:55:35 INFO main - messageStorePlugIn=
+2024-08-26 01:55:35 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2024-08-26 01:55:35 INFO main - traceTopicEnable=false
+2024-08-26 01:55:35 INFO main - sendMessageThreadPoolNums=1
+2024-08-26 01:55:35 INFO main - pullMessageThreadPoolNums=32
+2024-08-26 01:55:35 INFO main - processReplyMessageThreadPoolNums=32
+2024-08-26 01:55:35 INFO main - queryMessageThreadPoolNums=16
+2024-08-26 01:55:35 INFO main - adminBrokerThreadPoolNums=16
+2024-08-26 01:55:35 INFO main - clientManageThreadPoolNums=32
+2024-08-26 01:55:35 INFO main - consumerManageThreadPoolNums=32
+2024-08-26 01:55:35 INFO main - heartbeatThreadPoolNums=8
+2024-08-26 01:55:35 INFO main - endTransactionThreadPoolNums=24
+2024-08-26 01:55:35 INFO main - flushConsumerOffsetInterval=5000
+2024-08-26 01:55:35 INFO main - flushConsumerOffsetHistoryInterval=60000
+2024-08-26 01:55:35 INFO main - rejectTransactionMessage=false
+2024-08-26 01:55:35 INFO main - fetchNamesrvAddrByAddressServer=false
+2024-08-26 01:55:35 INFO main - sendThreadPoolQueueCapacity=10000
+2024-08-26 01:55:35 INFO main - pullThreadPoolQueueCapacity=100000
+2024-08-26 01:55:35 INFO main - replyThreadPoolQueueCapacity=10000
+2024-08-26 01:55:35 INFO main - queryThreadPoolQueueCapacity=20000
+2024-08-26 01:55:35 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2024-08-26 01:55:35 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2024-08-26 01:55:35 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2024-08-26 01:55:35 INFO main - endTransactionPoolQueueCapacity=100000
+2024-08-26 01:55:35 INFO main - filterServerNums=0
+2024-08-26 01:55:35 INFO main - longPollingEnable=true
+2024-08-26 01:55:35 INFO main - shortPollingTimeMills=1000
+2024-08-26 01:55:35 INFO main - notifyConsumerIdsChangedEnable=true
+2024-08-26 01:55:35 INFO main - highSpeedMode=false
+2024-08-26 01:55:35 INFO main - commercialEnable=true
+2024-08-26 01:55:35 INFO main - commercialTimerCount=1
+2024-08-26 01:55:35 INFO main - commercialTransCount=1
+2024-08-26 01:55:35 INFO main - commercialBigCount=1
+2024-08-26 01:55:35 INFO main - commercialBaseCount=1
+2024-08-26 01:55:35 INFO main - transferMsgByHeap=true
+2024-08-26 01:55:35 INFO main - maxDelayTime=40
+2024-08-26 01:55:35 INFO main - regionId=DefaultRegion
+2024-08-26 01:55:35 INFO main - registerBrokerTimeoutMills=6000
+2024-08-26 01:55:35 INFO main - slaveReadEnable=false
+2024-08-26 01:55:35 INFO main - disableConsumeIfConsumerReadSlowly=false
+2024-08-26 01:55:35 INFO main - consumerFallbehindThreshold=17179869184
+2024-08-26 01:55:35 INFO main - brokerFastFailureEnable=true
+2024-08-26 01:55:35 INFO main - waitTimeMillsInSendQueue=200
+2024-08-26 01:55:35 INFO main - waitTimeMillsInPullQueue=5000
+2024-08-26 01:55:35 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2024-08-26 01:55:35 INFO main - waitTimeMillsInTransactionQueue=3000
+2024-08-26 01:55:35 INFO main - startAcceptSendRequestTimeStamp=0
+2024-08-26 01:55:35 INFO main - traceOn=true
+2024-08-26 01:55:35 INFO main - enableCalcFilterBitMap=false
+2024-08-26 01:55:35 INFO main - expectConsumerNumUseFilter=32
+2024-08-26 01:55:35 INFO main - maxErrorRateOfBloomFilter=20
+2024-08-26 01:55:35 INFO main - filterDataCleanTimeSpan=86400000
+2024-08-26 01:55:35 INFO main - filterSupportRetry=false
+2024-08-26 01:55:35 INFO main - enablePropertyFilter=false
+2024-08-26 01:55:35 INFO main - compressedRegister=false
+2024-08-26 01:55:35 INFO main - forceRegister=true
+2024-08-26 01:55:35 INFO main - registerNameServerPeriod=30000
+2024-08-26 01:55:35 INFO main - transactionTimeOut=6000
+2024-08-26 01:55:35 INFO main - transactionCheckMax=15
+2024-08-26 01:55:35 INFO main - transactionCheckInterval=60000
+2024-08-26 01:55:35 INFO main - aclEnable=false
+2024-08-26 01:55:35 INFO main - storeReplyMessageEnable=true
+2024-08-26 01:55:35 INFO main - autoDeleteUnusedStats=false
+2024-08-26 01:55:35 INFO main - listenPort=10911
+2024-08-26 01:55:35 INFO main - serverWorkerThreads=8
+2024-08-26 01:55:35 INFO main - serverCallbackExecutorThreads=0
+2024-08-26 01:55:35 INFO main - serverSelectorThreads=3
+2024-08-26 01:55:35 INFO main - serverOnewaySemaphoreValue=256
+2024-08-26 01:55:35 INFO main - serverAsyncSemaphoreValue=64
+2024-08-26 01:55:35 INFO main - serverChannelMaxIdleTimeSeconds=120
+2024-08-26 01:55:35 INFO main - serverSocketSndBufSize=131072
+2024-08-26 01:55:35 INFO main - serverSocketRcvBufSize=131072
+2024-08-26 01:55:35 INFO main - serverPooledByteBufAllocatorEnable=true
+2024-08-26 01:55:35 INFO main - useEpollNativeSelector=false
+2024-08-26 01:55:35 INFO main - clientWorkerThreads=4
+2024-08-26 01:55:35 INFO main - clientCallbackExecutorThreads=8
+2024-08-26 01:55:35 INFO main - clientOnewaySemaphoreValue=65535
+2024-08-26 01:55:35 INFO main - clientAsyncSemaphoreValue=65535
+2024-08-26 01:55:35 INFO main - connectTimeoutMillis=3000
+2024-08-26 01:55:35 INFO main - channelNotActiveInterval=60000
+2024-08-26 01:55:35 INFO main - clientChannelMaxIdleTimeSeconds=120
+2024-08-26 01:55:35 INFO main - clientSocketSndBufSize=131072
+2024-08-26 01:55:35 INFO main - clientSocketRcvBufSize=131072
+2024-08-26 01:55:35 INFO main - clientPooledByteBufAllocatorEnable=false
+2024-08-26 01:55:35 INFO main - clientCloseSocketIfTimeout=false
+2024-08-26 01:55:35 INFO main - useTLS=false
+2024-08-26 01:55:35 INFO main - storePathRootDir=/opt/store
+2024-08-26 01:55:35 INFO main - storePathCommitLog=/opt/store/commitlog
+2024-08-26 01:55:35 INFO main - mappedFileSizeCommitLog=1073741824
+2024-08-26 01:55:35 INFO main - mappedFileSizeConsumeQueue=6000000
+2024-08-26 01:55:35 INFO main - enableConsumeQueueExt=false
+2024-08-26 01:55:35 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2024-08-26 01:55:35 INFO main - bitMapLengthConsumeQueueExt=64
+2024-08-26 01:55:35 INFO main - flushIntervalCommitLog=500
+2024-08-26 01:55:35 INFO main - commitIntervalCommitLog=200
+2024-08-26 01:55:35 INFO main - useReentrantLockWhenPutMessage=false
+2024-08-26 01:55:35 INFO main - flushCommitLogTimed=false
+2024-08-26 01:55:35 INFO main - flushIntervalConsumeQueue=1000
+2024-08-26 01:55:35 INFO main - cleanResourceInterval=10000
+2024-08-26 01:55:35 INFO main - deleteCommitLogFilesInterval=100
+2024-08-26 01:55:35 INFO main - deleteConsumeQueueFilesInterval=100
+2024-08-26 01:55:35 INFO main - destroyMapedFileIntervalForcibly=120000
+2024-08-26 01:55:35 INFO main - redeleteHangedFileInterval=120000
+2024-08-26 01:55:35 INFO main - deleteWhen=04
+2024-08-26 01:55:35 INFO main - diskMaxUsedSpaceRatio=75
+2024-08-26 01:55:35 INFO main - fileReservedTime=72
+2024-08-26 01:55:35 INFO main - putMsgIndexHightWater=600000
+2024-08-26 01:55:35 INFO main - maxMessageSize=4194304
+2024-08-26 01:55:35 INFO main - checkCRCOnRecover=true
+2024-08-26 01:55:35 INFO main - flushCommitLogLeastPages=4
+2024-08-26 01:55:35 INFO main - commitCommitLogLeastPages=4
+2024-08-26 01:55:35 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2024-08-26 01:55:35 INFO main - flushConsumeQueueLeastPages=2
+2024-08-26 01:55:35 INFO main - flushCommitLogThoroughInterval=10000
+2024-08-26 01:55:35 INFO main - commitCommitLogThoroughInterval=200
+2024-08-26 01:55:35 INFO main - flushConsumeQueueThoroughInterval=60000
+2024-08-26 01:55:35 INFO main - maxTransferBytesOnMessageInMemory=262144
+2024-08-26 01:55:35 INFO main - maxTransferCountOnMessageInMemory=32
+2024-08-26 01:55:35 INFO main - maxTransferBytesOnMessageInDisk=65536
+2024-08-26 01:55:35 INFO main - maxTransferCountOnMessageInDisk=8
+2024-08-26 01:55:35 INFO main - accessMessageInMemoryMaxRatio=40
+2024-08-26 01:55:35 INFO main - messageIndexEnable=true
+2024-08-26 01:55:35 INFO main - maxHashSlotNum=5000000
+2024-08-26 01:55:35 INFO main - maxIndexNum=20000000
+2024-08-26 01:55:35 INFO main - maxMsgsNumBatch=64
+2024-08-26 01:55:35 INFO main - messageIndexSafe=false
+2024-08-26 01:55:35 INFO main - haListenPort=10912
+2024-08-26 01:55:35 INFO main - haSendHeartbeatInterval=5000
+2024-08-26 01:55:35 INFO main - haHousekeepingInterval=20000
+2024-08-26 01:55:35 INFO main - haTransferBatchSize=32768
+2024-08-26 01:55:35 INFO main - haMasterAddress=
+2024-08-26 01:55:35 INFO main - haSlaveFallbehindMax=268435456
+2024-08-26 01:55:35 INFO main - brokerRole=ASYNC_MASTER
+2024-08-26 01:55:35 INFO main - flushDiskType=ASYNC_FLUSH
+2024-08-26 01:55:35 INFO main - syncFlushTimeout=5000
+2024-08-26 01:55:35 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2024-08-26 01:55:35 INFO main - flushDelayOffsetInterval=10000
+2024-08-26 01:55:35 INFO main - cleanFileForciblyEnable=true
+2024-08-26 01:55:35 INFO main - warmMapedFileEnable=false
+2024-08-26 01:55:35 INFO main - offsetCheckInSlave=false
+2024-08-26 01:55:35 INFO main - debugLockEnable=false
+2024-08-26 01:55:35 INFO main - duplicationEnable=false
+2024-08-26 01:55:35 INFO main - diskFallRecorded=true
+2024-08-26 01:55:35 INFO main - osPageCacheBusyTimeOutMills=1000
+2024-08-26 01:55:35 INFO main - defaultQueryMaxNum=32
+2024-08-26 01:55:35 INFO main - transientStorePoolEnable=false
+2024-08-26 01:55:35 INFO main - transientStorePoolSize=5
+2024-08-26 01:55:35 INFO main - fastFailIfNoBufferInStorePool=false
+2024-08-26 01:55:35 INFO main - enableDLegerCommitLog=false
+2024-08-26 01:55:35 INFO main - dLegerGroup=
+2024-08-26 01:55:35 INFO main - dLegerPeers=
+2024-08-26 01:55:35 INFO main - dLegerSelfId=
+2024-08-26 01:55:35 INFO main - preferredLeaderId=
+2024-08-26 01:55:35 INFO main - isEnableBatchPush=false
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=SCHEDULE_TOPIC_XXXX, readQueueNums=18, writeQueueNums=18, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster_REPLY_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2024-08-26 01:55:36 INFO main - load /opt/store/config/topics.json OK
+2024-08-26 01:55:36 INFO main - load /opt/store/config/consumerOffset.json OK
+2024-08-26 01:55:36 INFO main - load /opt/store/config/consumerFilter.json OK
+2024-08-26 01:55:36 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2024-08-26 01:55:36 INFO main - load /opt/store/config/delayOffset.json OK
+2024-08-26 01:55:41 INFO main - Set user specified name server address: namesrv:9876
+2024-08-26 01:55:41 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2024-08-26 01:55:41 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2024-08-26 01:55:41 INFO main - The broker dose not enable acl
+2024-08-26 01:55:41 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2024-08-26 01:55:41 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2024-08-26 01:55:41 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2024-08-26 01:55:41 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2024-08-26 01:55:41 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2024-08-26 01:55:41 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2024-08-26 01:55:41 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2024-08-26 01:55:42 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-08-26 01:55:42 INFO FileWatchService - FileWatchService service started
+2024-08-26 01:55:42 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2024-08-26 01:55:42 INFO PullRequestHoldService - PullRequestHoldService service started
+2024-08-26 01:55:42 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2024-08-26 01:55:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:55:42 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:55:42 INFO main - The broker[f017af18314a, 172.25.0.2:10911] boot success. serializeType=JSON and name server is namesrv:9876
+2024-08-26 01:55:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 01:55:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 01:55:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:55:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:56:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:56:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 01:56:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 01:56:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:56:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:57:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:57:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 01:57:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 01:57:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:57:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:58:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:58:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 01:58:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 01:58:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:58:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:59:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 01:59:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 01:59:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 01:59:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 01:59:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:00:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:00:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:00:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:00:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:00:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:01:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:01:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:01:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:01:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:01:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:02:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:02:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:02:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:02:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:02:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:03:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:23 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:03:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:03:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:03:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:03:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:04:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:04:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:04:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:04:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:04:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:05:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:05:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:05:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:05:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:05:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:06:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:06:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:06:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:06:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:06:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:07:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:07:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:07:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:07:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:07:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:08:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:08:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:08:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:08:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:08:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:09:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:09:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:09:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:09:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:09:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:10:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:10:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:10:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:10:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:10:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:11:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:11:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:11:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:11:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:11:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:12:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:12:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:12:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:12:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:12:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:13:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:13:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:13:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:13:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:13:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:14:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:14:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:14:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:14:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:14:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:15:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:15:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:15:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:15:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:15:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:16:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:23 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:16:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:16:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:16:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:16:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:17:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:17:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:17:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:17:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:17:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:18:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:23 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:18:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:18:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:18:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:18:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:19:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:19:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:19:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:19:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:19:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:20:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:20:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:20:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:20:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:20:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:21:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:21:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:21:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:21:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:21:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:22:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:22:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:22:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:22:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:22:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:23:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:23:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:23:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:23:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:23:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:24:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:24:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:24:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:24:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:24:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:25:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:25:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:25:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:25:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:25:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:26:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:26:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:26:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:26:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:26:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:27:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:27:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:27:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:27:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:27:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:28:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:28:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:28:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:28:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:28:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:29:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:29:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:29:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:29:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:29:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:30:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:30:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:30:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:30:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:30:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:31:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:22 INFO brokerOutApi_thread_1 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:31:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:31:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:31:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:31:52 INFO brokerOutApi_thread_2 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:32:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:11 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:12 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:21 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:22 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:22 INFO brokerOutApi_thread_3 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:32:31 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:32 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:41 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:42 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:51 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2024-08-26 02:32:51 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2024-08-26 02:32:51 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:52 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:32:52 INFO brokerOutApi_thread_4 - register broker[0]to name server namesrv:9876 OK
+2024-08-26 02:33:01 ERROR StoreScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog
+2024-08-26 02:33:02 ERROR DiskCheckScheduledThread1 - Error when measuring disk space usage, file doesn't exist on this path: /opt/store/commitlog

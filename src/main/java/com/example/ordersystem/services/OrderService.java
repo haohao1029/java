@@ -13,10 +13,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 @Service
@@ -58,7 +55,7 @@ public class OrderService {
 
             // 扣减库存
             productService.deductQuantity(productCode, quantity);
-
+            LocalDateTime current = LocalDateTime.now();
             // 创建订单
             Order order = new Order();
             order.setUserId(userId);
@@ -66,9 +63,11 @@ public class OrderService {
             order.setQuantity(quantity);
             order.setAmount(product.getPrice() * quantity);
             order.setStatus(OrderStatus.PENDING);
-            order.setCreatedTime(LocalDateTime.now());
+            order.setCreatedTime(current);
 
             orderRepository.save(order);
+            redisTemplate.opsForValue().set("order:pending:" + order.getId(), current.toString(), 35, TimeUnit.MINUTES);
+           // rocketMQTemplate.convertAndSend("order-topic", "Create Order: " + order.getId());
 
             return order;
 
@@ -95,10 +94,10 @@ public class OrderService {
         orderRepository.save(order);
 
         // delete redis
-        redisTemplate.delete("order" + order.getId());
+        redisTemplate.delete("order:pending:" + order.getId());
 
         // Send order paid message to RocketMQ
-        rocketMQTemplate.convertAndSend("order-topic", "Paid Order: " + order.getId());
+      //  rocketMQTemplate.convertAndSend("order-topic", "Paid Order: " + order.getId());
 
 
         return order;
@@ -113,13 +112,20 @@ public class OrderService {
     @Scheduled(fixedRate = 60000) // 每分钟执行一次
     @Transactional
     public void batchProcessOrderCancellation() {
-        Set<String> keySet = redisTemplate.keys("order" + "*");
+        Set<String> keySet = redisTemplate.keys("order:pending:" + "*");
+        System.out.println(keySet);
         if (keySet != null) {
             List<String> keys = new ArrayList<>(keySet);
             for (String key : keys) {
-                Order order = (Order) redisTemplate.opsForValue().get(key);
+                String dateTimeString = (String) redisTemplate.opsForValue().get(key);
+                LocalDateTime localDateTime = LocalDateTime.parse(dateTimeString);
 
-                if (order == null || !order.getCreatedTime().plusMinutes(30).isBefore(LocalDateTime.now())) {
+                if (!localDateTime.plusMinutes(2).isBefore(LocalDateTime.now())) {
+                    continue;
+                }
+                Order order = orderRepository.findById(Long.parseLong(key.split(":")[2])).orElse(null);
+
+                if (order == null) {
                     continue;
                 }
 
@@ -136,6 +142,7 @@ public class OrderService {
 
                 try {
                     // Cancel the order
+
                     order.setStatus(OrderStatus.CANCELLED);
                     orderRepository.save(order);
 
@@ -143,7 +150,7 @@ public class OrderService {
                     productService.addQuantity(order.getProductCode(), order.getQuantity());
 
                     // Send order cancellation message to RocketMQ
-                    rocketMQTemplate.convertAndSend("order-topic", "Cancelled Order: " + order.getId());
+                //    rocketMQTemplate.convertAndSend("order-topic", "Cancelled Order: " + order.getId());
 
                     // Remove the order from Redis
                     redisTemplate.delete(key);
