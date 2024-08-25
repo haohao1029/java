@@ -1,6 +1,37 @@
 # java
 非常感谢你们的测试机会。
 
+## curl
+create order
+```
+curl -X POST "http://localhost:8080/orders/create" -d "productCode=P123&quantity=2"
+```
+pay order
+```
+curl -X POST "http://localhost:8080/orders/pay/:orderNumber"
+```
+list order (debug)
+```
+curl -X GET "http://localhost:8080/orders"
+```
+create product 
+```
+curl -X POST "http://localhost:8080/products/create" -H "Content-Type: application/json" -d '{
+  "productCode": "P123",
+  "productName": "Sample Product",
+  "stock": 100,
+  "price": 19.99
+}'
+```
+get product
+```
+curl -X GET "http://localhost:8080/products"
+```
+
+get product by id 
+```
+curl -X GET "http://localhost:8080/products/1"
+```
 
 ## 达到目标
 ### 下单接口实现方法
