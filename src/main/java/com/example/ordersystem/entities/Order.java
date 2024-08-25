@@ -1,6 +1,7 @@
 package com.example.ordersystem.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,16 +16,22 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long userId;
     @Column(unique = true)
+    @NotNull
     private String orderNumber;
+    @NotNull
     private String productCode;
+    @NotNull
     private int quantity;
+    @NotNull
     private double amount;
+    @NotNull
     private double totalAmount;
 
     @Enumerated(EnumType.STRING)
+    @NotNull
     private OrderStatus status;
+    @NotNull
     private LocalDateTime createdTime;
 
     // Getters and Setters

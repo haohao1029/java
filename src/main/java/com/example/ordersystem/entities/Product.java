@@ -1,6 +1,7 @@
 package com.example.ordersystem.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,9 +14,13 @@ public class Product {
     private Long id;
 
     @Column(unique = true)
+    @NotNull
     private String productCode;
+    @NotNull
     private String productName;
+    @NotNull
     private int stock;
+    @NotNull
     private double price;
 
     // Getters and Setters
