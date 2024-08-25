@@ -1,0 +1,393 @@
+2024-08-25 16:52:16 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.8.0
+2024-08-25 16:52:16 INFO main - kvConfigPath=/opt/namesrv/kvConfig.json
+2024-08-25 16:52:16 INFO main - configStorePath=/opt/namesrv/namesrv.properties
+2024-08-25 16:52:16 INFO main - productEnvName=center
+2024-08-25 16:52:16 INFO main - clusterTest=false
+2024-08-25 16:52:16 INFO main - orderMessageEnable=false
+2024-08-25 16:52:16 INFO main - listenPort=9876
+2024-08-25 16:52:16 INFO main - serverWorkerThreads=8
+2024-08-25 16:52:16 INFO main - serverCallbackExecutorThreads=0
+2024-08-25 16:52:16 INFO main - serverSelectorThreads=3
+2024-08-25 16:52:16 INFO main - serverOnewaySemaphoreValue=256
+2024-08-25 16:52:16 INFO main - serverAsyncSemaphoreValue=64
+2024-08-25 16:52:16 INFO main - serverChannelMaxIdleTimeSeconds=120
+2024-08-25 16:52:16 INFO main - serverSocketSndBufSize=65535
+2024-08-25 16:52:16 INFO main - serverSocketRcvBufSize=65535
+2024-08-25 16:52:16 INFO main - serverPooledByteBufAllocatorEnable=true
+2024-08-25 16:52:16 INFO main - useEpollNativeSelector=false
+2024-08-25 16:52:17 INFO main - Server is running in TLS permissive mode
+2024-08-25 16:52:17 INFO main - Tls config file doesn't exist, skip it
+2024-08-25 16:52:17 INFO main - Log the final used tls related configuration
+2024-08-25 16:52:17 INFO main - tls.test.mode.enable = true
+2024-08-25 16:52:17 INFO main - tls.server.need.client.auth = none
+2024-08-25 16:52:17 INFO main - tls.server.keyPath = null
+2024-08-25 16:52:17 INFO main - tls.server.keyPassword = null
+2024-08-25 16:52:17 INFO main - tls.server.certPath = null
+2024-08-25 16:52:17 INFO main - tls.server.authClient = false
+2024-08-25 16:52:17 INFO main - tls.server.trustCertPath = null
+2024-08-25 16:52:17 INFO main - tls.client.keyPath = null
+2024-08-25 16:52:17 INFO main - tls.client.keyPassword = null
+2024-08-25 16:52:17 INFO main - tls.client.certPath = null
+2024-08-25 16:52:17 INFO main - tls.client.authServer = false
+2024-08-25 16:52:17 INFO main - tls.client.trustCertPath = null
+2024-08-25 16:52:20 INFO main - Using OpenSSL provider
+2024-08-25 16:52:21 INFO main - SSLContext created for server
+2024-08-25 16:52:22 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-08-25 16:52:22 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-08-25 16:52:22 INFO FileWatchService - FileWatchService service started
+2024-08-25 16:52:22 INFO main - The Name Server boot success. serializeType=JSON
+2024-08-25 16:52:22 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:16989
+2024-08-25 16:52:22 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:16989]
+2024-08-25 16:52:22 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:16989]
+2024-08-25 16:52:22 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:16989]
+2024-08-25 16:52:23 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:59744
+2024-08-25 16:52:23 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:59744]
+2024-08-25 16:52:23 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:16993
+2024-08-25 16:52:23 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:16993]
+2024-08-25 16:52:23 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:16993]
+2024-08-25 16:52:23 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:16993]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 16:52:24 INFO RemotingExecutorThread_1 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 16:53:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 16:53:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 16:53:23 INFO RemotingExecutorThread_4 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 17:03:21 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 17:03:21 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 18:04:38 WARN NSScheduledThread1 - The broker channel expired, 172.25.0.5:10911 120000ms
+2024-08-25 18:04:38 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.25.0.5:59744] result: true
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 18:04:38 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:59744]
+2024-08-25 18:04:38 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:59744]
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:04:38 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:04:45 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:55924
+2024-08-25 18:04:45 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:55924]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 18:04:45 INFO RemotingExecutorThread_3 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 18:54:44 WARN NSScheduledThread1 - The broker channel expired, 172.25.0.5:10911 120000ms
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 18:54:44 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.25.0.5:55924] result: true
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:55924]
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:55924]
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 18:54:44 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 18:54:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:57240
+2024-08-25 18:54:52 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:57240]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 18:54:52 INFO RemotingExecutorThread_4 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 19:00:03 WARN NSScheduledThread1 - The broker channel expired, 172.25.0.5:10911 120000ms
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 19:00:03 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.25.0.5:57240] result: true
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:57240]
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:57240]
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:00:03 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:00:11 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:40726
+2024-08-25 19:00:11 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:40726]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 19:00:11 INFO RemotingExecutorThread_5 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 19:07:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 19:07:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 19:17:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 19:17:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 19:27:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 19:27:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 19:43:03 WARN NSScheduledThread1 - The broker channel expired, 172.25.0.5:10911 120000ms
+2024-08-25 19:43:03 INFO NettyServerNIOSelector_3_3 - closeChannel: close the connection to remote address[172.25.0.5:40726] result: true
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 19:43:03 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:40726]
+2024-08-25 19:43:03 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:40726]
+2024-08-25 19:43:10 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:34768
+2024-08-25 19:43:10 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:34768]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 19:43:10 INFO RemotingExecutorThread_7 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 19:43:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 19:43:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 19:53:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 19:53:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 20:03:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 20:03:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 20:13:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 20:13:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 20:23:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 20:23:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 20:33:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 20:33:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 20:43:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 20:43:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 20:53:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 20:53:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 21:03:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 21:03:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 21:13:58 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 21:13:58 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 21:38:49 WARN NSScheduledThread1 - The broker channel expired, 172.25.0.5:10911 120000ms
+2024-08-25 21:38:49 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.25.0.5:34768] result: true
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:34768]
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:38:49 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:34768]
+2024-08-25 21:38:56 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:47840
+2024-08-25 21:38:56 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:47840]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 21:38:56 INFO RemotingExecutorThread_7 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 21:42:51 WARN NSScheduledThread1 - The broker channel expired, 172.25.0.5:10911 120000ms
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.25.0.5:47840] result: true
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NSScheduledThread1 - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 21:42:51 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:47840]
+2024-08-25 21:42:51 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:47840]
+2024-08-25 21:42:58 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:60836
+2024-08-25 21:42:59 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:60836]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 21:42:59 INFO RemotingExecutorThread_8 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 21:43:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 21:43:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 21:53:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 21:53:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 22:03:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 22:03:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 22:13:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 22:13:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 22:23:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 22:23:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 22:33:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 22:33:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 22:43:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 22:43:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 22:53:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 22:53:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 23:03:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 23:03:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 23:05:25 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.25.0.5:60836]
+2024-08-25 23:05:25 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.25.0.5:60836]
+2024-08-25 23:05:25 INFO NettyEventExecutor - the broker's channel destroyed, 172.25.0.5:10911, clean it's data structure at once
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove brokerAddr[0, 172.25.0.5:10911] from brokerAddrTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove brokerName[f017af18314a] from brokerAddrTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove brokerName[f017af18314a], clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove the clusterName[DefaultCluster] from clusterAddrTable, because channel destroyed and no broker in this cluster
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[RMQ_SYS_TRANS_HALF_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[SCHEDULE_TOPIC_XXXX] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[SELF_TEST_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[TBW102] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[BenchmarkTest] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[DefaultCluster] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[DefaultCluster_REPLY_TOPIC] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[f017af18314a] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]], from topicQueueTable, because channel destroyed
+2024-08-25 23:05:25 INFO NettyEventExecutor - remove topic[OFFSET_MOVED_EVENT] all queue, from topicQueueTable, because channel destroyed
+2024-08-25 23:06:07 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 172.25.0.5:50920
+2024-08-25 23:06:07 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[172.25.0.5:50920]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, SCHEDULE_TOPIC_XXXX QueueData [brokerName=f017af18314a, readQueueNums=18, writeQueueNums=18, perm=6, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, f017af18314a QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=7, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, RMQ_SYS_TRANS_HALF_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, DefaultCluster_REPLY_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, BenchmarkTest QueueData [brokerName=f017af18314a, readQueueNums=1024, writeQueueNums=1024, perm=6, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, OFFSET_MOVED_EVENT QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, TBW102 QueueData [brokerName=f017af18314a, readQueueNums=8, writeQueueNums=8, perm=7, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, SELF_TEST_TOPIC QueueData [brokerName=f017af18314a, readQueueNums=1, writeQueueNums=1, perm=6, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new topic registered, DefaultCluster QueueData [brokerName=f017af18314a, readQueueNums=16, writeQueueNums=16, perm=7, topicSynFlag=0]
+2024-08-25 23:06:07 INFO RemotingExecutorThread_5 - new broker registered, 172.25.0.5:10911 HAServer: 172.25.0.5:10912
+2024-08-25 23:13:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 23:13:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 23:23:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 23:23:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 23:33:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 23:33:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 23:43:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 23:43:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-25 23:53:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-25 23:53:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 00:03:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 00:03:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 00:13:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 00:13:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 00:23:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 00:23:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 00:33:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 00:33:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 00:43:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 00:43:16 INFO NSScheduledThread1 - configTable SIZE: 0
+2024-08-26 00:53:16 INFO NSScheduledThread1 - --------------------------------------------------------
+2024-08-26 00:53:16 INFO NSScheduledThread1 - configTable SIZE: 0

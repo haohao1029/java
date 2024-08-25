@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: order_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - app-network
+
+  redis:
+    image: redis:6.2
+    container_name: redis_cache
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+
+  namesrv:
+    image: apache/rocketmq:4.8.0
+    container_name: rmqnamesrv
+    ports:
+      - "9876:9876"
+    environment:
+      - "JAVA_OPT=-Duser.home=/opt"
+      - "JAVA_OPT_EXT=-server -Xms512M -Xmx512M -Xmn128M"
+    volumes:
+      - "./data/namesrv/logs:/opt/logs"
+      - "./data/namesrv/store:/opt/store"
+    command: sh mqnamesrv
+    networks:
+      - app-network
+
+  broker:
+    image: apache/rocketmq:4.8.0
+    container_name: rmqbroker
+    depends_on:
+      - namesrv
+    ports:
+      - "10911:10911"
+      - "10909:10909"
+    environment:
+      - "JAVA_OPT=-Duser.home=/opt"
+      - "JAVA_OPT_EXT=-server -Xms512M -Xmx512M -Xmn128M"
+      - "NAMESRV_ADDR=namesrv:9876"
+      - "BROKER_MEM=512m"
+    volumes:
+      - "./data/broker/logs:/opt/logs"
+      - "./data/broker/store:/opt/store"
+    command: sh mqbroker -n namesrv:9876
+    networks:
+      - app-network
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge

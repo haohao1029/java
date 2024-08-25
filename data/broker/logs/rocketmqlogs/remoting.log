@@ -1,0 +1,106 @@
+2024-08-25 16:52:18 INFO main - Server is running in TLS permissive mode
+2024-08-25 16:52:18 INFO main - Tls config file doesn't exist, skip it
+2024-08-25 16:52:18 INFO main - Log the final used tls related configuration
+2024-08-25 16:52:18 INFO main - tls.test.mode.enable = true
+2024-08-25 16:52:18 INFO main - tls.server.need.client.auth = none
+2024-08-25 16:52:18 INFO main - tls.server.keyPath = null
+2024-08-25 16:52:18 INFO main - tls.server.keyPassword = null
+2024-08-25 16:52:18 INFO main - tls.server.certPath = null
+2024-08-25 16:52:18 INFO main - tls.server.authClient = false
+2024-08-25 16:52:18 INFO main - tls.server.trustCertPath = null
+2024-08-25 16:52:18 INFO main - tls.client.keyPath = null
+2024-08-25 16:52:18 INFO main - tls.client.keyPassword = null
+2024-08-25 16:52:18 INFO main - tls.client.certPath = null
+2024-08-25 16:52:18 INFO main - tls.client.authServer = false
+2024-08-25 16:52:18 INFO main - tls.client.trustCertPath = null
+2024-08-25 16:52:21 INFO main - Using OpenSSL provider
+2024-08-25 16:52:22 INFO main - SSLContext created for server
+2024-08-25 16:52:22 INFO main - Server is running in TLS permissive mode
+2024-08-25 16:52:22 INFO main - Tls config file doesn't exist, skip it
+2024-08-25 16:52:22 INFO main - Log the final used tls related configuration
+2024-08-25 16:52:22 INFO main - tls.test.mode.enable = true
+2024-08-25 16:52:22 INFO main - tls.server.need.client.auth = none
+2024-08-25 16:52:22 INFO main - tls.server.keyPath = null
+2024-08-25 16:52:22 INFO main - tls.server.keyPassword = null
+2024-08-25 16:52:22 INFO main - tls.server.certPath = null
+2024-08-25 16:52:22 INFO main - tls.server.authClient = false
+2024-08-25 16:52:22 INFO main - tls.server.trustCertPath = null
+2024-08-25 16:52:22 INFO main - tls.client.keyPath = null
+2024-08-25 16:52:22 INFO main - tls.client.keyPassword = null
+2024-08-25 16:52:22 INFO main - tls.client.certPath = null
+2024-08-25 16:52:22 INFO main - tls.client.authServer = false
+2024-08-25 16:52:22 INFO main - tls.client.trustCertPath = null
+2024-08-25 16:52:22 INFO main - Using OpenSSL provider
+2024-08-25 16:52:22 INFO main - SSLContext created for server
+2024-08-25 16:52:22 INFO main - name server address updated. NEW : [namesrv:9876] , OLD: null
+2024-08-25 16:52:23 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-08-25 16:52:23 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-08-25 16:52:23 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 16:52:23 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 16:52:23 INFO brokerOutApi_thread_1 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@6135c6ff(success)
+2024-08-25 16:52:23 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:47585
+2024-08-25 16:52:23 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:47585]
+2024-08-25 16:52:24 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 192.168.65.1:59186
+2024-08-25 16:52:24 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[192.168.65.1:59186]
+2024-08-25 16:52:24 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:47585]
+2024-08-25 16:52:24 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:47585]
+2024-08-25 16:52:24 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[192.168.65.1:59186]
+2024-08-25 16:52:24 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[192.168.65.1:59186]
+2024-08-25 18:04:45 INFO brokerOutApi_thread_3 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 18:04:45 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 18:04:45 INFO brokerOutApi_thread_3 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@1889e92e(success)
+2024-08-25 18:54:52 INFO brokerOutApi_thread_4 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 18:54:52 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 18:54:52 INFO brokerOutApi_thread_4 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@6775ba7c(success)
+2024-08-25 19:00:11 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 19:00:11 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 19:00:11 INFO brokerOutApi_thread_1 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@5da75f0f(success)
+2024-08-25 19:43:10 INFO brokerOutApi_thread_3 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 19:43:10 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 19:43:10 INFO brokerOutApi_thread_3 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@164e144f(success)
+2024-08-25 21:38:56 INFO brokerOutApi_thread_3 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 21:38:56 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 21:38:56 INFO brokerOutApi_thread_3 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@1271825e(success)
+2024-08-25 21:42:58 INFO brokerOutApi_thread_4 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 21:42:58 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 21:42:58 INFO brokerOutApi_thread_4 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@1bcf1a6a(success)
+2024-08-25 23:06:02 INFO main - Server is running in TLS permissive mode
+2024-08-25 23:06:02 INFO main - Tls config file doesn't exist, skip it
+2024-08-25 23:06:02 INFO main - Log the final used tls related configuration
+2024-08-25 23:06:02 INFO main - tls.test.mode.enable = true
+2024-08-25 23:06:02 INFO main - tls.server.need.client.auth = none
+2024-08-25 23:06:02 INFO main - tls.server.keyPath = null
+2024-08-25 23:06:02 INFO main - tls.server.keyPassword = null
+2024-08-25 23:06:02 INFO main - tls.server.certPath = null
+2024-08-25 23:06:02 INFO main - tls.server.authClient = false
+2024-08-25 23:06:02 INFO main - tls.server.trustCertPath = null
+2024-08-25 23:06:02 INFO main - tls.client.keyPath = null
+2024-08-25 23:06:02 INFO main - tls.client.keyPassword = null
+2024-08-25 23:06:02 INFO main - tls.client.certPath = null
+2024-08-25 23:06:02 INFO main - tls.client.authServer = false
+2024-08-25 23:06:02 INFO main - tls.client.trustCertPath = null
+2024-08-25 23:06:04 INFO main - Using OpenSSL provider
+2024-08-25 23:06:06 INFO main - SSLContext created for server
+2024-08-25 23:06:06 INFO main - Server is running in TLS permissive mode
+2024-08-25 23:06:06 INFO main - Tls config file doesn't exist, skip it
+2024-08-25 23:06:06 INFO main - Log the final used tls related configuration
+2024-08-25 23:06:06 INFO main - tls.test.mode.enable = true
+2024-08-25 23:06:06 INFO main - tls.server.need.client.auth = none
+2024-08-25 23:06:06 INFO main - tls.server.keyPath = null
+2024-08-25 23:06:06 INFO main - tls.server.keyPassword = null
+2024-08-25 23:06:06 INFO main - tls.server.certPath = null
+2024-08-25 23:06:06 INFO main - tls.server.authClient = false
+2024-08-25 23:06:06 INFO main - tls.server.trustCertPath = null
+2024-08-25 23:06:06 INFO main - tls.client.keyPath = null
+2024-08-25 23:06:06 INFO main - tls.client.keyPassword = null
+2024-08-25 23:06:06 INFO main - tls.client.certPath = null
+2024-08-25 23:06:06 INFO main - tls.client.authServer = false
+2024-08-25 23:06:06 INFO main - tls.client.trustCertPath = null
+2024-08-25 23:06:06 INFO main - Using OpenSSL provider
+2024-08-25 23:06:06 INFO main - SSLContext created for server
+2024-08-25 23:06:06 INFO main - name server address updated. NEW : [namesrv:9876] , OLD: null
+2024-08-25 23:06:06 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-08-25 23:06:06 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-08-25 23:06:07 INFO brokerOutApi_thread_1 - createChannel: begin to connect remote host[namesrv:9876] asynchronously
+2024-08-25 23:06:07 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => amesrv/172.25.0.2:9876
+2024-08-25 23:06:07 INFO brokerOutApi_thread_1 - createChannel: connect remote host[namesrv:9876] success, DefaultChannelPromise@6a47d23a(success)
