@@ -36,7 +36,7 @@ public class OrderService {
 
 
     @Transactional
-    public Order createOrder(Long userId, String productCode, int quantity) {
+    public Order createOrder(String productCode, int quantity) {
         String lockKey = "lock:product:" + productCode;
         String lockValue = UUID.randomUUID().toString();
 
@@ -58,8 +58,8 @@ public class OrderService {
             LocalDateTime current = LocalDateTime.now();
             // 创建订单
             Order order = new Order();
-            order.setUserId(userId);
             order.setProductCode(productCode);
+            order.setOrderNumber(UUID.randomUUID().toString());
             order.setQuantity(quantity);
             order.setAmount(product.getPrice() * quantity);
             order.setStatus(OrderStatus.PENDING);
@@ -120,7 +120,7 @@ public class OrderService {
                 String dateTimeString = (String) redisTemplate.opsForValue().get(key);
                 LocalDateTime localDateTime = LocalDateTime.parse(dateTimeString);
 
-                if (!localDateTime.plusMinutes(2).isBefore(LocalDateTime.now())) {
+                if (!localDateTime.plusMinutes(30).isBefore(LocalDateTime.now())) {
                     continue;
                 }
                 Order order = orderRepository.findById(Long.parseLong(key.split(":")[2])).orElse(null);
